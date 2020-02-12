@@ -1,0 +1,61 @@
+@import '../../App.scss';
+
+.userhome-wrapper {
+    .accordion-container {
+        flex-direction: row;
+        align-items: flex-start;
+        height: calc(92vh - 30px);
+        .sidebar {
+            height: 100%;
+            padding: 0;
+            position: sticky;
+            top: 0;
+            .list-group-item {
+                &.active {
+                    background: $horizontalGradient;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                }
+            }
+            .list-group-item-action:not(.active):hover {
+                background: #eee;
+            }
+        }
+        .sidebar-content {
+            border-left: 1px solid rgba(0,0,0,.125);
+            padding: 15px;
+            height: 100%;
+        }
+    }
+} 
+
+.confirm-modal {
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.user-profile {
+    font-size: 1.1rem;
+    .profile-form {
+        margin: auto;
+    }
+}
+
+.margin-center{
+    margin:auto;
+}
+
+@media only screen and (min-width: 1700px) {
+    .edit-vendor {
+        .btn {
+            width: 140px;
+        }
+    } 
+}
+
+.download-lead-container {
+    margin-top: 10px;
+}
