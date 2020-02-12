@@ -1,11 +1,5 @@
 # Eventify
 
-## Group Members :
-1. [Naman Agrawal](https://github.com/agrawalnaman)
-2. [Chaitanya Naik](https://github.com/chets619)
-3. [Ayushman Mittal](https://github.com/ayushman264)
-4. [Akshit Ahuja](https://github.com/ahuja101992)
-
 # ABSTRACT : 
 
 Organizers of all large Conventions, Conferences and Trade Fairs face the perennial problem of tracking the movement of people between different rooms in an event for extracting meaningful insight from it. Also, in events, attendees tend to get confused due to a large number of events concurrently going on at the location.
@@ -27,13 +21,6 @@ After the conclusion of the event, the system will generate a report for the org
 * Database: MongoDB (For unstructured data storage like RFID punches), MySQL (For all other data like user details, vendor details, Conference room and speaker details etc.)
 * Hardware: RFID Reader, RFID Tags, Arduino
 * Containerization and Cloud Deployment: Docker, AWS EC2
-
-# Team Member Responsibilities:
-
-* Akshit Ahuja - Data Modelling, Lead Generation APIs, LinkedIn API (Tentative- due to privacy policy)
-* Ayushman Mittal - All backend APIs for the application
-* Chaitanya Naik - All frontend related tasks for web application (for Organizers)
-* Naman Agrawal - All frontend related tasks for mobile application (for Attendees), Push Notifications with speaker details ,Dockerization and cloud deployement
 
 # Design Thinking
 ## Personas
